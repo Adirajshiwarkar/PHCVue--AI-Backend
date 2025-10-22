@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: PHCVue
+Version: 0.1
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: boto3
+Requires-Dist: openai
+Requires-Dist: twilio
+Requires-Dist: python-multipart
+Dynamic: requires-dist

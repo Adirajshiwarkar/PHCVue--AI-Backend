@@ -1,0 +1,6 @@
+setup.py
+PHCVue.egg-info/PKG-INFO
+PHCVue.egg-info/SOURCES.txt
+PHCVue.egg-info/dependency_links.txt
+PHCVue.egg-info/requires.txt
+PHCVue.egg-info/top_level.txt
