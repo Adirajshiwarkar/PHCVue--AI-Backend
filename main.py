@@ -289,8 +289,8 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # MongoDB connection
-MONGO_URI = "mongodb+srv://mnrusers:pvt98mnr76global54technologies32ltd10@cluster0.rmyuiop.mongodb.net/PHCVue?retryWrites=true&w=majority&appName=Cluster0"
-client = AsyncIOMotorClient(MONGO_URI)
+# MONGO_URI = "mongodb+srv://mnrusers:pvt98mnr76global54technologies32ltd10@cluster0.rmyuiop.mongodb.net/PHCVue?retryWrites=true&w=majority&appName=Cluster0"
+client = AsyncIOMotorClient(os.getenv("MONGO_URI"))
 db = client["PHCVue"]
 consultation_collection = db["consultation"]
 ai_record_collection = db["ai_record"]
