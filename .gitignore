@@ -29,6 +29,5 @@ test_decide_next_node.py
 test_ttl_e2e.py
 test_integeration.py
 test_ttl_integration.py
-test*.py
 *.pdf
 *.ini
